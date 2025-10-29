@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="nerd.ico" type="image/x-icon">
+    <title>Modelos de caixas 01</title>
+    <style>
+        h1{
+            background-color: aqua;
+            height: 300px;
+            width: 300px;
+
+            /*
+            border-width: 10px;
+            border-style: solid;
+            border-color: blue;
+            */
+            border: 10px solid blue ;
+
+            /*
+            padding-top: 10px;
+            padding-right: 10px;
+            padding-bottom: 10px;
+            padding-left: 10px;            
+            padding: 10px 10px 10px 10px;
+            ou */
+            padding: 10px;
+
+            /*
+            margin-top: 10px;
+            margin-right: 10px;
+            margin-bottom: 10px;
+            margin-left: 10px;
+            ou           
+            margin: 20px 20px 40px 20px;
+            ou
+            */
+            margin: 20px auto 40px auto;
+
+            /*
+            outline-width: 5px;
+            outline-style: dashed;
+            outline-color: blueviolet;
+            */
+            outline: 5px dashed blueviolet;
+        }
+        p{
+            padding-top: 10px;
+            padding-right: 10px;
+            padding-bottom: 10px;
+            padding-left: 10px;
+        }
+        a{
+            border-width: 5px;
+            border-style: solid;
+            border-color: red;
+
+            margin-top: 10px;
+            margin-right: 10px;
+            margin-bottom: 10px;
+            margin-left: 10px;
+
+            padding-top: 7px;
+            padding-right: 10px;
+            padding-bottom: 7px;
+            padding-left: 10px;
+        }
+
+        .dashed{
+            border-width: 2;
+            border-style: dashed;
+            border-color: aqua;
+        }
+        .dotted{
+            border-width: 2;
+            border-style: dotted;
+            border-color: rgb(0, 38, 255);
+        }
+        .double{
+            border-width: 2;
+            border-style: double;
+            border-color: rgb(126, 131, 131);
+        }
+        .groove{
+            margin-top: 10px;
+            margin-right: 10px;
+            margin-bottom: 10px;
+            margin-left: 10px;
+
+            padding: 10px 10px 10px 10px ;
+
+            border-width: 20;
+            border-style: groove;
+            border-color: rgb(126, 131, 131);
+        }
+    </style>
+</head>
+<body>
+    <h1>Exemplos de caixa box-level</h1>   
+    <p>Paragráfos também são exemplos de box-level, mas os <a href="#">Mas os links são exemplos de inline-level</a> Vamos ver como tudo isto funciona</p>
+    <h2>Exemplos de bordas</h2>
+    <p class="dashed">Bordas tipo dashed</p>
+    <p class="dotted">Bordas tipo dotter</p>
+    <p class="double">Bordas tipo double</p>
+      <p class="groove">Bordas tipo groove</p>
+</body>
+</html>

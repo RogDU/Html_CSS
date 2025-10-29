@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="nerd.ico" type="image/x-icon">
+    <title>Links</title>
+    <style>
+
+        /* Seletores personalizados
+           # = id
+           . = class
+           : = pseudo-class
+          :: = pseudo-element
+           > = children (filho)
+           */ 
+
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        a{
+            color: rgb(241, 5, 5);
+            text-decoration: none;
+            font-weight: bold;
+        }
+        a:visited{
+            color: darkred
+            ;
+        }
+        a:hover{
+            text-decoration: underline;
+            color: blue;
+        }
+        a:active{
+            color: yellow;
+        }
+        a::before{
+            content: " 🠆 ";
+            color: black;
+
+        }
+        a::after{
+            content: " 🠄 ";
+            text-decoration: none;
+            font-weight: normal;
+            color: rgb(0, 0, 0);
+        }
+        .especial{
+            background-color: bisque;
+            
+        }
+        .especial::before{
+            content: " 🠞 "
+        }
+        .especial::after{
+            content: " 🠜 ";
+        }
+    </style>
+</head>
+<body>
+    <h1>Personalizando Links</h1>
+    <ul>
+        <li> <a href="https://www.youtube.com/@rogerioduartexavier6051" target="_blank">Canal Youtube</a> </li>
+        <li> <a href="https://github.com/RogDU" target="_blank">Git Hub</a></li>
+        <li> <a href="https://www.facebook.com/rog.insanos" target="_blank">Facebook</a></li>
+        <li><a class="especial" href="https://www.linkedin.com/in/rog%C3%A9rio-duarte-xavier-838904314/" target="_blank">Linkdin</a></li>
+    </ul>
+    
+</body>
+</html>
