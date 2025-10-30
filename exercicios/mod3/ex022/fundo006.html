@@ -8,16 +8,26 @@
     <style>
         body{
             height: 135vh;
-            background-color: black;
+            /*background-color: black;
             background-image: url('imagens/wallpaper002.jpg');
             background-position: center center;
-            background-repeat: repeat-y;
-            /*background-size: contain; ou */
+            background-repeat: no-repeat;
+            background-size: contain; ou 
+            background-size: cover;
+            background-attachment: scroll; ou 
+            background-attachment: fixed;
+
+            /* Shorthand - bacground*/
+
+            /* 
+            color > image > position > repeat > [size] > attachmen *background size:cover* ainda não funcona na shorthand*
+            */
+            background: black url('imagens/wallpaper002.jpg') no-repeat fixed;
             background-size: cover;
         }
         main{
             background-color: white;
-            width: 400px;
+            max-width: 400px;
             padding: 10px;            
             margin: auto;
             border: 1px solid darkblue;
