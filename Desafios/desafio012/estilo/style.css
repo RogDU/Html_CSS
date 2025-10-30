@@ -56,9 +56,7 @@ section{
     padding-left: 40px;
     padding-right: 40px;
     font-family: var(--font4);
-    font-size: 2.5vh;
-    
-    
+    font-size: 2.5vh;    
 }
 
 section.normal{
@@ -75,6 +73,22 @@ section.imagem > p{
 
 section.imagem{
     background-color: yellow;
+}
+
+section#img1{
+    background-image: url('../imagens/');
+}
+
+section#img2{
+    
+}
+
+section#img3{
+    
+}
+
+section#img4{
+    
 }
 
 footer{
