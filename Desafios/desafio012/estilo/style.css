@@ -17,7 +17,7 @@
 }
 
 html, body{
-    min-height: 100vh;    
+       
     background-color: darkgray;
     font-family: var(--font1);
 }
@@ -64,31 +64,42 @@ section.normal{
     color: black;
 }
 
-section.imagem > p{
-    width: 380px;
-    padding: 10px;
-    background-color: rgba(12, 12, 12, 0.123);
-    color: aliceblue;
-}
 
 section.imagem{
     background-color: yellow;
+    box-shadow: inset 6px 6px 13px 0px rgba(45, 106, 218, 0.521);
+    background-size: cover;
+    background-attachment: fixed;
 }
 
 section#img1{
-    background-image: url('../imagens/');
+    background-image: url('../imagens/img01.jpg');
+    background-position: left bottom;
+    
 }
 
 section#img2{
+    background-image: url('../imagens/img02.jpg');
+    background-position: right center;
     
 }
 
 section#img3{
-    
+    background-image: url('../imagens/img03.jpeg');
+    background-position: left bottom;
 }
 
 section#img4{
-    
+    background-image: url('../imagens/img04.jpg');
+    background-position: left center;
+}
+
+section.imagem > p{
+    width: 380px;
+    padding: 10px;
+    background-color: rgba(12, 12, 12, 0.61);
+    color: aliceblue;
+    text-shadow: 1px 1px 0px rgb(109, 133, 238);
 }
 
 footer{
